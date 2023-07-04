@@ -24,7 +24,3 @@ export async function writeFile(data:unknown){
         throw new Error('Something unexpected happened while writing the file');    
     }
 }
-writeFile({
-    name: "Rafael Souza", 
-    teste:"New test"
-})
